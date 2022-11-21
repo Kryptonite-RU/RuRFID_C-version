@@ -1,0 +1,5 @@
+Tag to Interrogator:           My ID: 29
+Interrogator to Tag:     TAM_message: 323aabcdeffedcbaa00002
+Tag to Interrogator:    TAM_response: dd0977ff4026be82432143214321432119297bfdd8b449f319297bfdd8b449f38fceb729ed960b87
+Interrogator:             I recieved: 43214321432143214321432143214321
+Interrogator:    Authentication was successful.

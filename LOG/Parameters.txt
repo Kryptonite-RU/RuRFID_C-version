@@ -1,0 +1,44 @@
+Parameters:
+
+Constants:
+    TAM_NOMESSAGE = 0x00
+    TAM_INTEGRITY = 0x01
+    TAM_AUTHENC = 0x02
+    IAM_NOMESSAGE = 0x03
+    IAM_INTEGRITY = 0x04
+    IAM_AUTHENC = 0x05
+    MAM_TAG_NOMESSAGE = 0x06
+    MAM_TAG_INTEGRITY = 0x07
+    MAM_TAG_AUTHENC = 0x08
+    MAM_INT_NOMESSAGE = 0x09
+    MAM_INT_INTEGRITY = 0x0a
+    MAM_INT_AUTHENC = 0x0b
+
+Keys (same for Magma and Kuznyechik):
+k = [0x44556677889900aa, 0xbbccddeeff112233,
+     	0x0123456789abcdef, 0xfedbca9876543210]
+k_enc = [0x8899aabbccddeeff, 0x0011223344556677, 
+        	0xfedcba9876543210, 0x0123456789abcdef]
+k_mac = [0xffeeddccbbaa9988, 0x7766554433221100,
+        	0xf0f1f2f3f4f5f6f7, 0xf8f9fafbfcfdfeff]
+
+
+Magma:
+Tag text = [0x1111222233334444,
+        	0x5555666677778888]
+Int text = [0x9999888877776666,
+        	0x1111222233334444]
+IChallenge = [0x0aabcdeffedcbaa0]
+TChallenge = [0x0234567887654321]
+tag_iv = [0x4321432143214321]
+int_iv = [0x9876987698769876]
+
+Kuznyechik:
+Tag text = [0x1111222233334444, 0x5555666677778888, 
+		0x99990000aaaabbbb, 0xccccddddeeeeffff]
+Int text = [0x9999888877776666, 0x1111222233334444,
+		0xffffeeeeddddcccc, 0xaaaabbbb00005555]
+TChallenge = [0x0234567887654321, 0x19abcdeffedcba90]
+IChallenge = [0x0aabcdeffedcbaa0, 0x1223456776543221]
+tag_iv = [0x4321432143214321, 0x4321432143214321]
+int_iv = [0x9876987698769876, 0x9876987698769876]

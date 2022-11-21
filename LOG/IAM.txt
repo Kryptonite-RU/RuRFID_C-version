@@ -1,0 +1,23 @@
+Magma:
+
+IAM with no data:
+0xa622008aef1bc9cd
+
+IAM with integrity (full block data)
+0xc42848e7f7aad2e3999988887777666611112222333344448704e2ffaaf3087c
+
+IAM AEAD (full block data)
+0x3118c7dbe30f2cc4987698769876987692442d0f6030d4b41ddefb234f38fdaa383064ce8b4a39f6
+
+
+
+Kuznyechik:
+
+IAM with no data:
+0xa159527a029cf11e4210cd6e75bdcda1
+
+IAM with integrity (full block data)
+0xafefa8875c0975fe0cbeed41f54e48d499998888777766661111222233334444ffffeeeeddddccccaaaabbbb00005555a03df702c0e52b6367bacca35345889e
+
+IAM AEAD (full block data)
+0x451b49456bc6aec89a3ac909e8eb5fff987698769876987698769876987698767809646496210597e32a50ddba54268aad860c7b9f6610ab2f18e841f92ec2cc345c7aebc4ae29334dc0bd0bfb083ee8
